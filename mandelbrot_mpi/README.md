@@ -4,7 +4,7 @@ Files:
 - mandelbrot_static.c : static scheduling MPI implementation
 - mandelbrot_dynamic.c: dynamic (master-worker) MPI implementation
 - Makefile
-- report.md : ready-to-paste report contents
+
 
 Build:
 ```
