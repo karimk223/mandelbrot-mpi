@@ -1,0 +1,23 @@
+Files created in /mnt/data/
+
+Original sequential source you uploaded:
+- sandbox:/mnt/data/Mandelbrotseq.c
+
+To build:
+1) Ensure you have MPI (Open MPI or MPICH) installed.
+2) cd /mnt/data
+3) make
+
+To run (examples):
+- mpirun -np 1 ./mandelbrot_static
+- mpirun -np 4 ./mandelbrot_static
+- mpirun -np 4 ./mandelbrot_dynamic
+
+Outputs will appear in the working directory as:
+- mandelbrot_static.pgm
+- mandelbrot_dynamic.pgm
+
+Timing:
+- Each program prints a "max runtime" (the maximum local runtime across ranks), use that for speedup calculations.
+
+If you want, I can try to compile these here (if mpicc is available) and run a quick test. Otherwise, run them on your machine or cluster.
