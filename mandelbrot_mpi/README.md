@@ -25,6 +25,3 @@ Outputs:
 - mandelbrot_static.pgm
 - mandelbrot_dynamic.pgm
 
-Notes:
-- If `mpicc`/`mpirun` are not available on your machine, install Open MPI or MPICH.
-- For performance measurement, run several trials and record the printed max runtime.
